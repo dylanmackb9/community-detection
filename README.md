@@ -4,7 +4,7 @@ My goal is to investigate a community detection task on related spotify artist d
 
 I will use a generative model to label $n$ verticies into $r$ disjoint subsets $C_{1},...,C_{r}$ I will refer to as communities. The goal is to find a labeling of the vertices $\textbf{σ}$ such that edges occur more frequently between vertices that share a label than differently-labeled vertices. The probability of an edge between nodes $u$ and $v$ with labels $\sigma_u$ and $\sigma_v$ is, 
 
-$\begin{equation}$
+\begin{equation}
 P_{uv} = 
 \left\{ 
   \begin{array}{rl}
