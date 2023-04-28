@@ -23,6 +23,7 @@ In general, for symmetric $r$ x $r$ matrix $P$, the probability of an edge exist
 The labelings $\textbf{σ}$ can be modeled as random or non-random, and in this case I will assume labelings as fixed and nonrandom. The input to the problem consists of the vertices and edges with probabilities. Labelings are not known as they must be (approximately) inferred from the given data. I assume a binary labeling of even distribution:
 
 \\
+```math
 \begin{equation}
 σ_{u}σ_{v} = 1 ,-1, 
 \end{equation}
@@ -30,3 +31,4 @@ and
 \begin{equation}
 𝚺σ_{u} = 0  \quad  ∀ \:u∈V 
 \end{equation}
+```
