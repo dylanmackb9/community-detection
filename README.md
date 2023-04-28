@@ -36,3 +36,22 @@ and
 𝚺σ_{u} = 0  \quad  ∀ \:u∈V 
 \end{equation}
 ```
+
+
+# Objective
+
+We want to find labeling $\hat{\textbf{σ}}$ which is 'significantly' better than a random labeling $\textbf{σ}$. 
+
+This can be formalized by insisting $|\langle\hat{\textbf{σ}},\textbf{σ}⟩| \geq (1-2\varepsilon)n$ for some specified $\varepsilon > 0$.
+
+In our case, with binary labeling {0,1}, we will split our verticies into communities $C_{1}, C_{2}$,  in symmetric $2$ x $2$ matrix P of edge probabilities,
+
+```math
+\
+$P=
+\begin{bmatrix}
+P_{in} & P_{out}\\
+P_{out} & P_{in}
+\end{bmatrix}
+$
+```
