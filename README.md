@@ -3,9 +3,6 @@
 My objective is to investigate the behavior of random graphs with an underlying latent community structure. I will assume random graph $G$ to be produced from a generative model, and will explore the performance of community detection and partial recovery techniques on the average case. 
 
 
-
-My goal is to investigate a community detection task on related spotify artist data in the form of an indirected graph $G$. Probability distribution P is proposed over vertex set $V$. Taking the existing edge set, I will try to estimate a labeling among more frequently conneted vertices. 
-
 I will use a generative model to label $n$ verticies into $r$ disjoint subsets $C_{1},...,C_{r}$ I will refer to as communities. The goal is to find a labeling of the vertices $\textbf{σ}$ such that edges occur more frequently between vertices that share a label than differently-labeled vertices. The probability of an edge between nodes $u$ and $v$ with labels $\sigma_u$ and $\sigma_v$ is, 
 
 ```math
