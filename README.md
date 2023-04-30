@@ -3,7 +3,7 @@
 My objective is to investigate the behavior of random graphs with an underlying latent community structure. I will assume random graph $G$ to be produced from a generative model, and will explore the performance of community detection and partial recovery techniques on the average case. 
 
 
-I will use a generative model to label $n$ verticies into $r$ disjoint subsets $C_{1},...,C_{r}$ I will refer to as communities. The goal is to find a labeling of the vertices $\textbf{σ}$ such that edges occur more frequently between vertices that share a label than differently-labeled vertices. The probability of an edge between nodes $u$ and $v$ with labels $\sigma_u$ and $\sigma_v$ is, 
+<! I will use a generative model to label $n$ verticies into $r$ disjoint subsets $C_{1},...,C_{r}$ I will refer to as communities. The goal is to find a labeling of the vertices $\textbf{σ}$ such that edges occur more frequently between vertices that share a label than differently-labeled vertices. The probability of an edge between nodes $u$ and $v$ with labels $\sigma_u$ and $\sigma_v$ is, 
 
 ```math
 \begin{equation}
@@ -56,3 +56,4 @@ P_{out} & P_{in}
 \end{bmatrix}
 $
 ```
+-->
