@@ -9,7 +9,7 @@
   
   To discover a latent community structure within graph $G$, we begin by assuming that $G$ was generated from a Stochastic Block Model. This model takes a vertex set $V$ with n nodes, a partition of the n vertices into r disjoint subsets $C_1,..,C_r$ that we call **communities**, and symmetric $r$ x $r$ matrix $P$ of edge probabilites, 
 
-\
+
 ```math
 \begin{equation}
 P=
@@ -26,7 +26,7 @@ The edge set is then sampled at random so that two vertices $u$ and $v$ are conn
 
 In the case where there are two distinct communities, so $r=2$, $P$ becomes a symmetric $2$ x $2$ matrix with two distinct probabilities. The probability of an edge between $u∈C_i$ and $v∈C_j$ becomes,
 
-\
+
 ```math
 \begin{equation}
 P_{uv} = 
