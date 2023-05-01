@@ -39,7 +39,7 @@ P_{uv} =
 ```
 
 
-  Given this structure, we define partial recovery as producing a labeling of nodes $\hat{\textbf{σ}}$ that is significantly more correlated with true labeling $\textbf{σ}$ than a random labeling. I will explore Spectral Clustering as a partial recovery technique, including an algorithmic nalysis of the performance in the worst and average case. 
+Given this structure, we define partial recovery as producing a labeling of nodes $\hat{\textbf{σ}}$ that is significantly more correlated with true labeling $\textbf{σ}$ than a random labeling. I will explore Spectral Clustering as a partial recovery technique, including an algorithm analysis on the performance in the worst and average case. 
 
 
 
