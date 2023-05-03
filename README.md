@@ -9,7 +9,7 @@
 
   Construct undirected graph $G$ with vertex set $V$ and edge set $E$. We want to explore the possibility that $G$ has a underlying community structure, meaning that vertices are connected via edges with varying densities. In this case, communities are groups of vertices where edges occur more frequently between each other than others.   
   
-  We will use the Stochastic Block Model to analyze the community structure of random graph $G$. This model takes a vertex set $V$ with n nodes, a partition of the n vertices into r disjoint subsets $C_1,..,C_r$ that we call **communities**, and symmetric $r$ x $r$ matrix $P$ of edge probabilites, 
+  We will use the Stochastic Block Model to analyze the community structure of random graph $G$. This model takes a vertex set $V$ with n nodes, a partition of the n vertices into r disjoint subsets $C_1,..,C_r$ that we call **communities**, and a symmetric $r$ x $r$ matrix $P$ of edge probabilites 
 
 ```math
 \begin{equation}
@@ -26,7 +26,7 @@ P_{r1} & \cdots & P_{rr}
 
 The edge set is then sampled at random so that two vertices $u$ and $v$ are  connected with probability as a function of the communities they belong to. Specifically, given $u∈C_i$ and $v∈C_j$, an edge exists between $u$ and $v$ with probability $P_{ij}$. 
 
-In the case where there are two distinct communities $r=2$, $P$ becomes a symmetric $2$ x $2$ matrix with two distinct probabilities. The probability of an edge connecting $u∈C_i$ and $v∈C_j$ becomes,
+In the case where there are two distinct communities $r=2$, $P$ becomes a symmetric $2$ x $2$ matrix with two distinct probabilities. The probability of an edge connecting $u∈C_i$ and $v∈C_j$ becomes
 
 ```math
 \begin{equation}
