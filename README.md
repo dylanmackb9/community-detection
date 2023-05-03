@@ -2,7 +2,7 @@
 
 ## Motivation
 
-  My objective is to investigate the behavior of random graphs produced by a  generative Stochastic Block Model. I will explore the ability of community detection and partial recovery techniques to uncover the latent community structure of random graphs, and will analyze the performance of these algorithms on the average case. Finally, I will apply these methods to real-life data: a graphical representation of related artists through digital music service Spotify's Web API.
+  My objective is to investigate the behavior of random graphs produced by a  generative Stochastic Block Model. I will explore the performance of community  detection and partial recovery techniques in uncovering the latent community structure of these graphs, and will analyze these algorithms on the average case. Finally, I will apply these methods to real-life data: a graphical representation of related artists through Spotify's Web API.
 
 
 ## Set up
