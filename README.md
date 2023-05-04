@@ -43,4 +43,21 @@ P_{uv} =
 
 
 
+## Objective
+
+I will begin with an assumption about our graph's probability parameters and structure. First, graph $G$ is assumed to be at least *weakly assortive*, meaning that $P_{ii} > P_{ij}$ $∀$ $C_i,C_j$, but with diagonals in $P$ only dominating their respective row and column. Descriptively, this means two vertices within a community share an edge with probability greater than a vertex within this community and a vertex in another. However, other vertices in other communities may have higher edge probabilities, suggesting uneven community densities. 
+
+
+To further simplify analysis, we will later assume a planted partition model, where the $P$ probabilities on the diagonal are all constant $P_{in}$, and probabilities off the diagonal are constant $P_{out}$, with $P_{in}>P_{out}$.
+
+In this simplified version, we will also assume that $r=2$ and we partition into two equal sized communities, so label $\textbf{σ}$ is a vector ${±1}^{n}$, and the sum of all labels over the vertex set $V$ is 0. 
+
+
+We can now formalize our partial recovery objective by insisting that $\lvert ⟨\textbf{σ̂},\textbf{σ}⟩ \rvert ≥ (1-2ε)n$ for some $ε>0$. Therefore, a label $\textbf{σ}$ that meets this objective labels  $1-ε$ fraction of the vertices correctly.
+
+
+
+
+
+
 
