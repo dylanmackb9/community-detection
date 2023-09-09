@@ -152,13 +152,10 @@ Pr \biggl( \mathop{\text{sup}}_{\textbf{x}\in\mathbb{R}^d}\eta(\langle\textbf{x}
 \end{equation}
 ```
 
-\
-Explanation: This proposition bounds the probability that a certain type of matrix will stray from its expected value by a certain amount.
-
 
 ### **Lemma 1**
 
-Suppose $A$ is a symmetric matrix with eigenvalues $λ_1, λ_2,\ldots,λ_k$ and corresponding eigenspaces $V_1, V_2,\ldots,V_k$. The spaces $V_1,\ldots,V_k$ are pairwise orthogonal (meaning each vector in $V_i$ is orthogonal to each other vector $V_j$ when $1≤i<j ≤ k$) and every $\textbf{x}∈\mathbb{R}^n$ can be written uniquely in the form $\textbf{x} = a_1\textbf{x}_1+a_2\textbf{x}_2+\cdots+a_k\textbf{x}_k$, where $\textbf{x}_i$ is an element of $V_i$ satisfying $\lVert{\textbf{x}_i}\rVert_2 = 1$, for $i = 1,\ldots,k$. Furthermore,
+Suppose $A$ is a symmetric matrix with eigenvalues $λ_1, λ_2,\ldots,λ_k$ and corresponding eigenspaces $V_1, V_2,\ldots,V_k$. The spaces $V_1,\ldots,V_k$ are pairwise orthogonal (meaning each vector in $V_i$ is orthogonal to each other vector $V_j$ when $1≤i<j≤k$) and every $\textbf{x}∈\mathbb{R}^n$ can be written uniquely in the form $\textbf{x} = a_1\textbf{x}_1+a_2\textbf{x}_2+\cdots+a_k\textbf{x}_k$, where $\textbf{x}_i$ is an element of $V_i$ satisfying $\lVert{\textbf{x}_i}\rVert_2 = 1$, for $i = 1,\ldots,k$. Furthermore,
 
 ```math
 \begin{equation}
@@ -179,6 +176,8 @@ Suppose $P_1, P_2,...,P_m$ are mutually independent random, symmetric, positive 
 Pr \biggl(\underset{\textbf{x}\in\mathbb{R}^d}{\text{sup}}\eta(\langle\textbf{x}, P\textbf{x}\rangle, \langle\textbf{x}, Q\textbf{x}\rangle) \ge \textit{β} \biggl) ≤2d \cdot e^{-\frac{1}{4}\textit{β}^2r}.
 \end{equation}
 ```
+
+\
 
 
 
