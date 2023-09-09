@@ -56,6 +56,16 @@ In this simplified version, we will also assume that $r=2$ and we partition into
 We can now formalize our partial recovery objective by insisting that $\lvert ⟨\textbf{σ̂},\textbf{σ}⟩ \rvert ≥ (1-2ε)n$ for some $ε>0$. Therefore, a label $\textbf{σ}$ that meets this objective labels  $1-ε$ fraction of the vertices correctly.
 
 
+## Community Detection 
+
+Given this setup, we want to devise partial recovery technique that attempts to detect communities in graph $G$ by finding labeling $\textbf{σ}$ that adheres to our formalized objective.
+
+I will be examining a specific Spectral Clustering technique to accomplish this task which utilizes the spectrum of a matrix representation to perform dimensionality reduction. This method takes advantage of the graph's Laplacian Matrix representation and its Algebraic Connectivity to study possible partitions in a lower dimensional space.
+
+The basis of the proof of correctness and case analysis on this algorithm will  use a matrix extension of the Chernoff Bound called the Ahlswede-Winter Inequality, which exists in the larger space of matrix tail bounds. This inequalty gives a probability bound for the relative error between a sum of random, mutually independent, symmetric, positive semidefinite matrices $P$ and its expected value $\mathbb{E}[P]$ by using the eigenspace of $P$.
+
+
+
 
 
 
